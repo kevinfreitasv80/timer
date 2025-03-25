@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer - Desafio Code Kata</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script defer src="assets/script.js"></script>
+  </head>
+  <body>
+    <audio class="alarm" src="./assets/sound/alarm.ogg" hidden loop></audio>
+    <section class="container">
+      <div>
+        <div class="overlayer"></div>
+        <section class="time">
+          <input autocomplete="off" id="hours" type="text" value="00" />
+          <p class="spaces">:</p>
+          <input autocomplete="off" id="minutes" type="text" value="00" />
+          <p class="spaces">:</p>
+          <input autocomplete="off" id="seconds" type="text" value="30" />
+        </section>
+      </div>
+      <section class="btns">
+        <button id="fullScreen" class="btn">
+          <img src="assets/imgs/fullScreen.svg" alt="" />
+        </button>
+        <button id="edit" class="btn">
+          <img src="assets/imgs/edit.svg" alt="" />
+        </button>
+        <button id="reset" class="btn">
+          <img src="assets/imgs/reset.svg" alt="" />
+        </button>
+        <button id="play" class="btn">
+          <img src="assets/imgs/play.svg" alt="" />
+        </button>
+        <button id="cancel" class="btn">
+          <img src="assets/imgs/cancel.svg" alt="" />
+        </button>
+        <button id="confirm" class="btn">
+          <img src="assets/imgs/confirm.svg" alt="" />
+        </button>
+      </section>
+    </section>
+  </body>
+</html>
