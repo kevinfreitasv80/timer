@@ -19,7 +19,7 @@ const HOURinSEC = 60 * MINinSEC;
 const colors = ["#242424", "#46ffbe"];
 
 let isRun = false;
-let time = 30;
+let time = 0;
 let interval;
 
 function setDisplay(el, value) {
