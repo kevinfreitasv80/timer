@@ -130,7 +130,7 @@ function updateTime() {
   seconds.value = s < 10 ? `0${s}` : s;
 }
 function resetTime() {
-  time = 30;
+  time = 0;
   isRun = false;
   clearInterval(interval);
   setDisplay(hours, "block");
